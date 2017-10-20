@@ -1,0 +1,31 @@
+
+
+{# {% set alerts = ['success','info','warning','danger'] %}
+
+{% for type in alerts %}
+ {% if flash.getMessage(type) %}
+  {% for message in flash.getMessage(type) %}
+   <div class="alert alert-{{ type }} alert-dismissible fade in" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    {{ message|raw }}
+   </div>
+  {% endfor %}
+ {% endif %}
+{% endfor %}﻿ #}
+
+{% if flash.getMessage('info') %}
+
+	<div class='alert alert-info'>
+		{{ flash.getMessage('info') | first }}
+	</div>
+
+{% endif %}
+
+
+{% if flash.getMessage('error') %}
+
+	<div class='alert alert-danger'>
+		{{ flash.getMessage('error') | first }}
+	</div>
+
+{% endif %}
