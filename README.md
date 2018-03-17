@@ -1,5 +1,5 @@
 # Slim-Authentication
-#### 一个基于 Slim 框架的验证系统，涵盖大部分 Web 基础知识。
+#### 一个基于 Slim 框架的验证系统。
 
 ## 涉及知识
 #### - MVC
