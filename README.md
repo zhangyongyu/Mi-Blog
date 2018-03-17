@@ -1,6 +1,6 @@
 # Slim-Authentication
 #### 一个基于 Slim 框架的验证系统。
-
+![example_img](/public/sa.png)
 ## 涉及知识
 #### - MVC
 #### - composer
